@@ -1,0 +1,4 @@
+1. select nazwa from wycieczki where poczatek like "Muszyna" or poczatek LIKE "Wieliczka";
+2. select w.nazwa, w.opis, w.poczatek, z.zrodlo from wycieczki w join zdjecia z on w.zdjecia_id = z.id;
+3. select count(id) from wycieczki;
+4. alter table wycieczki add column ocena int;

@@ -1,0 +1,4 @@
+1. select nazwa from marki;
+2. select model, rocznik, przebieg, paliwo, cena, zdjecie from samochody where id like 10;
+3. select m.nazwa, s.model, s.cena, s.zdjecie from marki m inner join samochody s on m.id = s.marki_id where s.wyrozniony like 1 limit 4;
+4. SELECT s.model, s.cena, s.zdjecie from samochody s join marki m on s.marki_id = m.id where m.nazwa like "Audi";
