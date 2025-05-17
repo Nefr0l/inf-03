@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fryzjerstwo</title>
+    <link rel="stylesheet" href="styl8.css">
+
+    <script src="skrypt.js" defer></script>
+</head>
+<body>
+    <main>
+        <section>
+            <h1><a href="index.html">SALON FRYZJERSKI</a></h1>
+        </section>
+
+        <section id="promoSection">
+            <h2>PROMOCJA!</h2>
+
+            <label><input type="radio" name="fryzura" id="1" value="1"> Krótkie</label><br>
+            <label><input type="radio" name="fryzura" id="2" value="2"> Średnie</label><br>
+            <label><input type="radio" name="fryzura" id="3" value="3"> Półdługie</label><br>
+            <label><input type="radio" name="fryzura" id="4" value="4"> Długie</label><br>
+
+            <button onclick="CalculatePrice()">Odkryj promocję</button>
+
+        </section>
+
+        <section>
+            <p>Witaj! Miło nam, że odwiedziłeś nasz salon. Sprawdź promocje!</p>
+            <h4>Kontakt: 444 555 666</h4>
+        </section>
+    </main>
+
+    <aside>
+        <section>
+            <h4><a href="fryzura.html">Ceny strzyżenia</a></h4>
+
+            <table>
+                <tr>
+                    <th>Długość włosów</th>
+                    <th>Cena</th>
+                </tr>
+                <tr>
+                    <td>Krótkie</td>
+                    <td>25</td>
+                </tr>
+                <tr>
+                    <td>Średnie</td>
+                    <td>30</td>
+                </tr>
+                <tr>
+                    <td>Półdługie</td>
+                    <td>40</td>
+                </tr>
+                <tr>
+                    <td>Długie</td>
+                    <td>50</td>
+                </tr>
+            </table>
+        </section>
+
+        <section>
+            <img src="pliki/obraz1.jpg" alt="Fryzjerka">
+        </section>
+    </aside>
+
+    <footer>
+        <p>Autor: Filip Wrzosek</p>
+    </footer>
+</body>
+</html>

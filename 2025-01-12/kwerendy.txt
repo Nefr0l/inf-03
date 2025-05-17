@@ -1,0 +1,4 @@
+1. select rodzaj, nazwa, Gramatura, Cena from wyroby where Rodzaj like "INNE";
+2. select DISTINCT rodzaj from wyroby order by rodzaj desc;
+3. select id, nazwa from wyroby where nazwa like "%Chałka%";
+4. select rodzaj, cast(avg(Cena) as decimal(10,2)) as "Średnia cena" from wyroby GROUP by rodzaj;

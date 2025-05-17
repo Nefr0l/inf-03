@@ -1,0 +1,4 @@
+1. select imie, nazwisko, stanowisko from kadra where stanowisko like "fryzjer" or stanowisko like "stylista";
+2. select count(id), max(cena) from uslugi;
+3. select u.nazwa, k.imie from uslugi u join kadra k on u.kadra_id = k.id where u.rodzaj like 2 or u.rodzaj like 3;
+4. alter table uslugi add column opinia varchar(255);
