@@ -1,0 +1,37 @@
+* {
+    font-family: Helvetica;
+}
+
+header, footer, body, p, h3 {
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    background-color: #AF4448;
+    color: white;
+    text-align: center;
+    height: 20px;
+}
+
+footer {
+    clear: both;
+}
+
+main, aside {
+    width: 50%;
+    float: left;
+    background-color: #FFA4A2;
+    height: 650px;
+}
+
+h4 {
+    margin: 0px;
+}
+
+button {
+    background-color: #AF4448;
+    color: white;
+    padding: 5px;
+    margin: 10px;
+}

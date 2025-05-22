@@ -1,0 +1,5 @@
+1. select marka, rocznik from samochody where kolor like "niebieski";
+2. select count(id) from samochody where (marka like "Toyota" or marka like "Opel") and stan like "bardzo dobry";
+3. update samochody set stan = "dobry" where rocznik < 2004;
+4. create user jan identified by 'janKowalski1@';
+5. grant select, insert, update on samochody to jan;

@@ -1,0 +1,4 @@
+1. select id, imie, nazwisko, rok_urodzenia, zdjecie from osoby limit 30;
+2. select u.imie, u.nazwisko, u.rok_urodzenia, u.opis, u.zdjecie, h.nazwa from osoby u join hobby h on u.Hobby_id = h.id where u.id = 10;
+3. select cast(avg(rok_urodzenia) as decimal(10,0)), min(rok_urodzenia), max(rok_urodzenia) from osoby;
+4. update osoby set opis = "slucham muzyki" where Hobby_id like 4;
