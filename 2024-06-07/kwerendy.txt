@@ -1,0 +1,4 @@
+1. update wagi set dzien = curdate(), czas = curtime() where lokalizacje_id like 2 or 3 or 4;
+2. select ulica from lokalizacje;
+3. insert into wagi values (null, 5, floor(1 + rand() * 10), 'DW12345', curdate(), curtime());
+4. select w.rejestracja, w.waga, w.dzien, w.czas, l.ulica from wagi w join lokalizacje l on w.lokalizacje_id = l.id where w.waga > 5;
