@@ -1,0 +1,4 @@
+1. select m.nazwa, m.ilosc, p.nazwaProd from materialy m join producenci p on m.Producenci_id = p.id where m.ilosc > 9;
+2. select m.nazwa, p.nazwaProd, j.nazwaJedn from materialy m join producenci p on m.Producenci_id = p.id join jednostki j on j.id = m.Jednostki_id;
+3. create user zaopatrzenie@localhost identified by "Z@op@trzenie";
+4. grant select, update, insert, delete on firma.* to zaopatrzenie@localhost;

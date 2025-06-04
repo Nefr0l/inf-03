@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zamówienia hurtowe</title>
+    <link rel="stylesheet" href="styl4.css">
+    <script src="skrypt.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Sieci komputerowe</h1>
+    </header>
+
+    <main>
+        <section class="left">
+            <h2>Aktualizacja i zamówienia materiałów</h2>
+            <p>Do wewnętrznego użytku firmy</p>
+            <img src="obraz.png" alt="sieć komputerowa">
+        </section>
+
+        <section class="right">
+            <table>
+                <tr>
+                    <th>Produkt</th>
+                    <th>Jednostka</th>
+                    <th>Dostępna ilość</th>
+                    <th>Aktualizacja</th>
+                    <th>Zamówienie</th>
+                </tr>
+                <tr>
+                    <td id="product1">Skrętka U/UTP drut</td>
+                    <td>metr</td>
+                    <td class="count" id="value1">20</td>
+                    <td>
+                        <button onclick="Update(1)">Aktualizuj</button>
+                    </td>
+                    <td>
+                        <button onclick="Order(1)">Zamów</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td id="product2">Skrętka U/UTP linka</td>
+                    <td>metr</td>
+                    <td class="count" id="value2">2</td>
+                    <td>
+                        <button onclick="Update(2)">Aktualizuj</button>
+                    </td>
+                    <td>
+                        <button onclick="Order(2)">Zamów</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td id="product3">Wtyki 8P8C</td>
+                    <td>sztuki</td>
+                    <td class="count" id="value3">10</td>
+                    <td>
+                        <button onclick="Update(3)">Aktualizuj</button>
+                    </td>
+                    <td>
+                        <button onclick="Order(3)">Zamów</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td id="product4">Moduły Keystone</td>
+                    <td>sztuki</td>
+                    <td class="count" id="value4">30</td>
+                    <td>
+                        <button onclick="Update(4)">Aktualizuj</button>
+                    </td>
+                    <td>
+                        <button onclick="Order(4)">Zamów</button>
+                    </td>
+                </tr>
+            </table>
+        </section>
+    </main>
+
+    <footer>
+        <a href="http://sieci.pl/" target="_blank">Nasza strona internetowa</a>
+        <p>Stronę przygotował: 01234</p>
+    </footer>
+</body>
+</html>

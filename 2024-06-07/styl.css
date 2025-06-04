@@ -1,0 +1,68 @@
+* {
+    font-family: Tahoma;
+}
+
+body {
+    margin: 0;
+}
+
+header div {
+    background-color: #519657;
+    color: white;
+    text-align: center;
+    height: 150px;
+    float: left;
+}
+
+#header1 {
+    width: 70%;
+}
+
+#header2 {
+    width: 30%;
+}
+
+main {
+    clear: both;
+}
+
+#left, #center, #right {
+    background-color: #E1E1E1;
+    height: 450px;
+    float: left;
+}
+
+#left, #right {
+    width: 25%;
+}
+
+#center {
+    width: 50%;
+    overflow: scroll;
+}
+
+footer {
+    background-color: #80C683;
+    text-align: center;
+}
+
+#obraz2 {
+    width: 100%;
+    padding: 100px 0;
+}
+
+table {
+    border: 1px solid #80C683;
+}
+
+th, td {
+    padding: 2px;
+}
+
+tr:hover {
+    background-color: #80C683;
+}
+
+table tr:last-child {
+    background-color: red;
+}
